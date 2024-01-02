@@ -1,0 +1,17 @@
+{
+	"ulid": "01HK4PDJRR9166Z97969KJP3GN",
+	"minTime": 1704175205412,
+	"maxTime": 1704182400000,
+	"stats": {
+		"numSamples": 19026382,
+		"numSeries": 39780,
+		"numChunks": 158634
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HK4PDJRR9166Z97969KJP3GN"
+		]
+	},
+	"version": 1
+}

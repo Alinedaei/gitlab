@@ -1,0 +1,10 @@
+2024-01-02_07:00:07.81428 ts=2024-01-02T07:00:07.803Z caller=compact.go:523 level=info component=tsdb msg="write block" mint=1704168005412 maxt=1704175200000 ulid=01HK4FHVFCEGCTC2JP4RJ6H37E duration=1.550090482s
+2024-01-02_07:00:08.01699 ts=2024-01-02T07:00:08.016Z caller=head.go:1299 level=info component=tsdb msg="Head GC completed" caller=truncateMemory duration=183.735282ms
+2024-01-02_07:00:08.02267 ts=2024-01-02T07:00:08.021Z caller=checkpoint.go:100 level=info component=tsdb msg="Creating checkpoint" from_segment=10 to_segment=11 mint=1704175200000
+2024-01-02_07:00:09.81534 ts=2024-01-02T07:00:09.814Z caller=head.go:1267 level=info component=tsdb msg="WAL checkpoint complete" first=10 last=11 duration=1.794010757s
+2024-01-02_09:00:09.94978 ts=2024-01-02T09:00:09.931Z caller=compact.go:523 level=info component=tsdb msg="write block" mint=1704175205412 maxt=1704182400000 ulid=01HK4PDJRR9166Z97969KJP3GN duration=3.635947821s
+2024-01-02_09:00:10.14568 ts=2024-01-02T09:00:10.145Z caller=head.go:1299 level=info component=tsdb msg="Head GC completed" caller=truncateMemory duration=189.677001ms
+2024-01-02_09:00:13.90103 ts=2024-01-02T09:00:13.891Z caller=compact.go:464 level=info component=tsdb msg="compact blocks" count=3 mint=1704153600000 maxt=1704175200000 ulid=01HK4PDPHBYJBNJNQZZE314EFK sources="[01HK41TC5BPX72FCNRENGSH5NB 01HK48P483SQSH5ZDNA65JF0AR 01HK4FHVFCEGCTC2JP4RJ6H37E]" duration=3.735611559s
+2024-01-02_09:00:13.91761 ts=2024-01-02T09:00:13.917Z caller=db.go:1619 level=info component=tsdb msg="Deleting obsolete block" block=01HK48P483SQSH5ZDNA65JF0AR
+2024-01-02_09:00:13.92151 ts=2024-01-02T09:00:13.921Z caller=db.go:1619 level=info component=tsdb msg="Deleting obsolete block" block=01HK4FHVFCEGCTC2JP4RJ6H37E
+2024-01-02_09:00:13.92574 ts=2024-01-02T09:00:13.925Z caller=db.go:1619 level=info component=tsdb msg="Deleting obsolete block" block=01HK41TC5BPX72FCNRENGSH5NB
